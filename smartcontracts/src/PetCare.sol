@@ -3,10 +3,10 @@ pragma solidity ^0.8.18;
 
 contract PetCare {    
     struct Pet {
-        uint8 id;
-        string name;
-        string breed;
-        uint8 age;
+        uint8   id;
+        string  name;
+        string  breed;
+        uint8   age;
         address owner;
     }
 
